@@ -1,0 +1,20 @@
+site_name: HikAIO
+site_description: Hikvision asyncio
+site_author: Patrick Forringer
+
+repo_url: https://github.com/destos/hikaio
+edit_uri: https://github.com/destos/hikaio/edit/master/docs
+
+theme: readthedocs
+
+markdown_extensions:
+  - codehilite:
+      linenums: true
+
+nav:
+- Home: index.md
+- Advanced: advanced.md
+- About:
+  - Release Notes: about/changelog.md
+  - Contributing: about/contributing.md
+  - License: about/license.md
